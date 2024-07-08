@@ -1,0 +1,75 @@
+body{
+   margin: 100;
+   background-color:rgb(212, 71, 71);
+   background-size: cover;
+   font-family: 'Carter+One', Arial, Helvetica, sans-serif;
+   min-height: 100vh;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.792);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1{
+    margin: 0;
+    color:rgb(183, 91, 91)
+}
+main{
+    width: 80%;
+    margin:auto;
+    padding:20px;
+    background-color:rgb(255, 255, 255,.7);
+    display:flex;
+    gap:30px;
+    
+}
+#imagen{
+    width: 250px;
+}
+#palabra_a_adivinar{
+    height: 3em;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(164, 99, 99);
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; 
+
+}
+#letras{
+    margin-top: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+#letras button{
+    width: 28px;
+    padding: 6px 0;
+    text-align: center;
+
+}
+button {
+    background-color: #c18383;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d64444;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
